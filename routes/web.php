@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('banks');
+})->name('banks');
+
+Route::get('/mortgage-calculator', function () {
+    return view('mortgage-calc');
+})->name('calculator');
+
+Route::get('/{id}/loan-history', function (int $id) {
+    return view('bank-history', compact('id'));
+})->name('bank-history');

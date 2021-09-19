@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+.banks-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        font-size: 22px;
+    }
+}
+
+.items-list {
+    min-height: 300px;
+    padding: 0;
+
+    .list-item {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding: 10px;
+
+        &:hover {
+            background-color: #F7F7F7;
+        }
+
+        a {
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+        }
+
+        i {
+            margin-right: 5px;
+            font-size: 13px;
+
+            &:hover {
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            &.bi-trash-fill {
+                color: red;
+            }
+        }
+    }
+}
+
+.error-messages-list {
+    list-style-type: none;
+    padding: 0;
+
+    .error-message {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 2px;
+        padding: 2px;
+    }
+}
