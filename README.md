@@ -1,5 +1,5 @@
 ## Project setups on local machine
-Visit this link -  http://chntest-25237.camry.chost.com.ua or set up the project locally following the next steps:
+Visit this link -  http://chntest-33154.camry.chost.com.ua or set up the project locally following the next steps:
 1. clone the project from the repository - https://github.com/IgorOleniuk/mortage_banks
 2. enter the project folder
 3. run composer install
@@ -11,7 +11,7 @@ Visit this link -  http://chntest-25237.camry.chost.com.ua or set up the project
 9. run php artisan:serve
 
 ### Bonus tasks
-Deploy the application to make it available through the Internet. - http://chntest-25237.camry.chost.com.ua  ✅
+Deploy the application to make it available through the Internet. http://chntest-33154.camry.chost.com.ua/  ✅
 Create a README file with a project setup instruction. - ✅
 Implement bank loan history. If a user tried to calculate a mortgage you can keep this record in the database and show this record in the history of the specific bank. - ✅
 
